@@ -10,7 +10,7 @@ body
     background-image: url(../images/background.jpg);
 }
 
-h2
+h2, p
 {
     font-family: Nimitz;
     color: #666547;
@@ -33,7 +33,7 @@ h2
 {
     height: 181px;
     width: 93px;
-    background-color: green;
+    background-color: #6FCB9F;
     flex-direction: row; 
 }
 
@@ -52,12 +52,20 @@ h2
     text-align: center;
 }
 
+#section2boxs p
+{
+    color: #FB2E01;
+    font-size: 80px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
 .box2
 {
     height: 152px;
     width: 147px;
     min-width: 147px;
-    background-color: green;
+    background-color: #6FCB9F;
     margin: 10px;
     flex-wrap: wrap;
 }
@@ -72,8 +80,14 @@ h2
     height: 152px;
     width: 333px;
     min-width: 333px;
-    background-color: green;
+    background-color: #6FCB9F;
     margin: 10px;
+}
+
+.im
+{
+    max-height: 200px;
+    object-fit: cover;
 }
 
 #footerNav
@@ -108,7 +122,7 @@ h2
     height: 152px;
     width: 147px;
     min-width: 147px;
-    background-color: green;
+    background-color: #6FCB9F;
     margin: 10px;
 }
 
