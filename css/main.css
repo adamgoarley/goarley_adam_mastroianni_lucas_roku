@@ -27,7 +27,9 @@ h2 {
   text-align: center; }
 
 #section2boxs {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center; }
 
 .box2 {
   height: 152px;
@@ -37,6 +39,44 @@ h2 {
   margin: 10px;
   flex-wrap: wrap; }
 
+.boxDesktop {
+  display: none; }
+
+.boxMobile {
+  height: 152px;
+  width: 333px;
+  min-width: 333px;
+  background-color: green;
+  margin: 10px; }
+
+#footerNav {
+  height: 61px;
+  width: 100%;
+  background-color: #666547;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 100px; }
+
+.footerSvg {
+  height: 40px;
+  margin: 10px;
+  fill: green; }
+
+.footerSvg svg {
+  fill: blue; }
+
+@media screen and (min-width: 640px) {
+  .boxDesktop {
+    display: block;
+    height: 152px;
+    width: 147px;
+    min-width: 147px;
+    background-color: green;
+    margin: 10px; }
+
+  .boxMobile {
+    display: none; } }
 @media screen and (min-width: 960px) {
   #section2 h2 {
     font-size: 50px;
